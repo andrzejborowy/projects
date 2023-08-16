@@ -1,16 +1,22 @@
 # Propeller clock
 
-I were studying on Warsaw University of Technology. Newar the end of my studies I decided to prepare my diploma. But I didn't want to just describe some problem. It was too obvious. So I choosed to "make a thing" which would work. At that time I was fascinized about proppeler clocks which I have seen in web. 
+I were studying on Warsaw University of Technology. Newar the end of my studies I decided to prepare my diploma work. I didn't want to just describe some problem. It was too obvious. So I choosed to "make a thing" which would work. At that time I was fascinized about proppeler clocks which I have seen in web. 
 
 It passed couple of years, but I'll try to describe my construction.
 
-## Way of working
+## Way of propeller clock works
+
+Fundamentals of propeller clock are based on inertion of human eye. If some point light is moving circle quite fast, there is possibility for human to see this as spinning circle. But speed must to be saved.
+If light will comes with some breaks, it will be visible as dots.
+Then If we use not one point light bui many of them it is possible to see some fun shapes.
+Back to inertion of human eye - there is perfect example of this effect. Newton Circle. This is multi-color circle. With enough high rotation it will become white for observer.
+![image](https://github.com/andrzejborowy/projects/assets/72155321/96cdd1f2-7bff-4be8-96fa-5462c1fc04ff)
 
 
 ## Mechanical
 
-I started from design mechanical part. Som of this design was based on my imagination, other part was based on parts that i had.
-I decided
+I started building propeller clock from the mechanical part. Some of this design was based on my imagination, other part was based on parts that i had.
+Construction should have to be simple because main aim of diploma work was to make it working and presenting effect of light, not beauty of mechanics.
 
 
 ## Electronics
