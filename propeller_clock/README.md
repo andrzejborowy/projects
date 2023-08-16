@@ -43,17 +43,67 @@ For driving transistor used to generate signal for coil, i used Arduino Mega2560
 
 ![image](https://github.com/andrzejborowy/projects/assets/72155321/62181971-4213-4d6e-a1f0-89480d6c2ab7)
 
+After method worked, it was time to place it on something. And it has been done on rotor of fan. I used some paper tape for some reason. It didn't looked nice but it worked well. Distance between coils were about 1mm.
 
-
-I based my construction on fan motor. 
+![image](https://github.com/andrzejborowy/projects/assets/72155321/02352818-3917-43d7-8e60-36bc88ac0bd0)
+![image](https://github.com/andrzejborowy/projects/assets/72155321/2a74b774-9922-4175-8eb0-56a6e77993d7)
 
 ### LED's drivers
 
+I decided to use RGB SMD leds. as many as I can. It occured that it is possible for me to use 24 leds (each housing had red, green and blue inside). In this case I had to drive 72 leds as fast as possible.
+Because of that I used dedicated led driver SCT2024CSSG.
+
+![image](https://github.com/andrzejborowy/projects/assets/72155321/bd4b3bb7-e110-4e68-938f-a852249b7399)
+
+ To be precise, five of them...
+
+![image](https://github.com/andrzejborowy/projects/assets/72155321/d9a06763-7fe3-4961-a342-8a325f8ad6c3)
+
+All of driver's communication were connected in serial. It was a must to sent one full line for driving even one led. After sending the line, microcontroller sent latch signal which force to bring value from bufor to their outputs on leds.
+
 ### Microcontroller
 
+In my diploma work I used Atmega 88PA. Decided price, MOQ and simple way of programming. It needed only one USBASP programmer which was very cheap at that time. So I bought one for this project.
+
+### PCB
+
+I designed two PCB's for this project fully in KiCad. First of all KiCad is free. Good reason i thought. Second of all it has really good support in web on on all kinds of forums groups.
+First board was for powering supply. It has generator on it wit MOSFET type N transistor to drive coil (or I should to say "air transformer").
+
+![image](https://github.com/andrzejborowy/projects/assets/72155321/c30f0c61-620e-4615-aa81-df5c51b99cd2)
 
 
+The second one had every spining element on it. Leds, led's drivers, microcontroller, crystal, connectorl, etc. 
 
+![image](https://github.com/andrzejborowy/projects/assets/72155321/6baf6335-229c-4961-ba15-63d443953a0a)
 
+### Manufacturing PCB's
+
+I didn't wand to order those PCB's somwhere abroad, pay a lot of money and wait months. I used thermotransfer method to make them on my own.
+
+![image](https://github.com/andrzejborowy/projects/assets/72155321/c4d74349-c990-40c7-a725-4445c3bb1988)
+![image](https://github.com/andrzejborowy/projects/assets/72155321/9bd86be3-f19b-439a-85c6-d04b0f41f67d)
 
 ## Programming
+
+I don't know what to say here. My programming skills then and now are different. Very different. To sum this chapter up - whole program was written in C and was using essentials of programming (some delays, working on registers - nothing really "fancy"). For programming I used Arduino IDE - at that time it was simpler to me than using terminal. I don't know why. Today me and the "Mister Terminal" are good friends.
+
+After I made some firmware there was time for some first tries...
+
+![image](https://github.com/andrzejborowy/projects/assets/72155321/c0facd87-0ec2-494b-85f0-55119a76cf40)
+
+## Final results
+
+I made a propeller slock by myself. It sounds proud even now.
+
+![image](https://github.com/andrzejborowy/projects/assets/72155321/294547bd-e691-4690-b91f-93eec94ef9c0)
+![image](https://github.com/andrzejborowy/projects/assets/72155321/6de6364b-3267-485c-be62-a98982921a05)
+
+https://github.com/andrzejborowy/projects/assets/72155321/5c371729-a9a9-48e9-8715-63acbc4fcbe6
+
+
+
+
+
+
+
