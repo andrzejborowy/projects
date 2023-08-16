@@ -1,4 +1,4 @@
-# Propeller clock
+au# Propeller clock
 
 I were studying on Warsaw University of Technology. Newar the end of my studies I decided to prepare my diploma work. I didn't want to just describe some problem. It was too obvious. So I choosed to "make a thing" which would work. At that time I was fascinized about proppeler clocks which I have seen in web. 
 
@@ -29,10 +29,27 @@ Main construction were made of painted black plywood. Others elements were bolte
 All models were made in Autodes Inventor 2015.
 
 
-
 ## Electronics
 
-Electronics part was the biggest part of my diploma work.
+Electronics part was the biggest part of my diploma work. Because of that I decided to divide this chapter.
+
+### Wireless power supply
+
+When I was designing this clock, one of this problem was to power supply main rotating board. Every motor brush would generate some inertia for spinning so main effect of propeller clock might to not be visible or hard to see with good luck. Because of that I decided to use wireless method of transfering power. First tries were based on transfering power to power supply little light bulb. It was more experimental.
+
+![image](https://github.com/andrzejborowy/projects/assets/72155321/ff668b45-fb61-4af9-aa63-e67ac4556a64)
+
+For driving transistor used to generate signal for coil, i used Arduino Mega2560.
+
+![image](https://github.com/andrzejborowy/projects/assets/72155321/62181971-4213-4d6e-a1f0-89480d6c2ab7)
+
+
+
+I based my construction on fan motor. 
+
+### LED's drivers
+
+### Microcontroller
 
 
 
