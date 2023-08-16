@@ -1,4 +1,4 @@
-au# Propeller clock
+# Propeller clock
 
 I were studying on Warsaw University of Technology. Newar the end of my studies I decided to prepare my diploma work. I didn't want to just describe some problem. It was too obvious. So I choosed to "make a thing" which would work. At that time I was fascinized about proppeler clocks which I have seen in web. 
 
